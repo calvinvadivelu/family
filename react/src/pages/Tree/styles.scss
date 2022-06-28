@@ -1,0 +1,11 @@
+.tree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-parent{
+        display: flex;
+        & > div {
+            display: flex;
+        }
+    }
+}

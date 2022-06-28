@@ -1,0 +1,21 @@
+.relationgroup{
+    margin: 14px 0 10px;
+    label{
+        // text-align: center;
+        display: block;
+        margin-bottom: 8px;
+    }
+    &-relations{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+    &-add{
+        width: 30%;
+        height: 80px;
+        cursor: pointer;
+        background-color: rgb(241, 241, 241);
+        border: none;
+        border-radius: 4px;
+    }
+}

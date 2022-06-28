@@ -1,0 +1,19 @@
+.node{
+    position: absolute;
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    &.male{
+        background-color: lightblue;
+        border: 2px lightblue solid;
+    }
+    &.female {
+        background-color: lightcoral;
+        border: 2px lightcoral solid;
+    }
+    &.selected{
+        border: 2px blue solid;
+    }
+}
